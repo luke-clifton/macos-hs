@@ -5,3 +5,4 @@ script: nix-build release.nix
 cache:
   directories:
     - /nix/store
+  timeout: 1000
