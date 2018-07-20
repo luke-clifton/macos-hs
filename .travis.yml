@@ -1,4 +1,4 @@
 language: nix
 os:
   - osx
-script: nix-build -f release.nix
+script: nix build -f release.nix
